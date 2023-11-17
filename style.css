@@ -1,0 +1,34 @@
+body 
+{
+    font-size: 16px;
+}
+
+#input 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stack
+{
+    width:100%;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bolder
+}
+
+.stack-item 
+{
+    border: 2px solid red;
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 1.5em;
+}
